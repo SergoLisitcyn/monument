@@ -33,7 +33,20 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
-
+    <?php
+    NavBar::begin([
+        'options' => [
+            'class' => 'fade none-top',
+        ],
+    ]);
+    echo Nav::widget([
+        'options' => ['class' => 'navbar-nav navbar-right'],
+        'items' => [
+            ['label' => 'Contact', 'url' => '#', 'options' => ['data-toggle' => 'modal', 'data-target' => '#myModal']],
+        ],
+    ]);
+    NavBar::end();
+    ?>
     <div class="header-top">
         <div class="container">
             <div class="row">
@@ -68,7 +81,7 @@ AppAsset::register($this);
                 <div class="row center">
                     <h2 style="font-size: 20px;padding-bottom: 20px;">Каталог продукции разнообразен по цене от простых моделей до<br> заказных, индивидуальных.</h2>
                 </div>
-                <button type="button" class="button-slider" data-toggle="modal" data-target="#myModal">Оставить заявку</button>
+                <button type="button" class="button-slider" data-toggle="modal" data-target="#myModal"><a href="#">Оставить заявку</a></button>
 
 
             </div>

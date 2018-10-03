@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Памятники в Калининграде';
 ?>
 <div class="site-index">
 
@@ -12,7 +12,7 @@ $this->title = 'My Yii Application';
 
         <div class="row">
             <div class="container">
-                <h1 style="text-align: center;">ГАЛЕРЕЯ</h1>
+                <h1 style="text-align: center;">Галерея</h1>
                 <div class="site-block col-lg-4">
                     <div class="site-image">
                        <img alt="type stone" src="/images/home/type_stone.jpg">
@@ -100,7 +100,9 @@ $this->title = 'My Yii Application';
                                 </div>
                             </div>
                             <div class="col-xs-3" style="padding-left: 0">
-
+                                <a class="tel" href="tel:+79097938373">
+                                <button type="button" class="button-answer">+7 (909) 793-83-73</button>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -142,6 +142,7 @@ body{
     background: #da1314;
     border-radius: 10px;
     color: #fff;
+    cursor: pointer;
 }
 
 
@@ -171,7 +172,7 @@ body{
 
 
 .answer-icon .material-icons {
-    color: #e05f35;
+    color: #da1313;
     font-size: 88px;
     margin-top: -20px;
     position: relative;
@@ -190,14 +191,6 @@ body{
     font-size: 13px;
     font-weight: 500;
     margin-top: 0;
-}
-
-.answer-btn{
-    background: #e05f35 none repeat scroll 0 0;
-    border-radius: 2px;
-    color: #ffffff !important;
-    display: inline-block;
-    padding: 8px 35px;
 }
 
 
@@ -251,4 +244,26 @@ body{
 
 .index-gallery{
     margin-bottom: 30px;
+}
+
+.icon-section .button-answer  {
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    background: #da1313;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.none-top{
+    display: none;
 }

@@ -21,9 +21,12 @@ class Gallery extends \yii\db\ActiveRecord
     public function behaviors()
     {
         return [
+//            'image' => [
+//                'class' => 'rico\yii2images\behaviors\ImageBehave',
+//            ]
             'image' => [
-                'class' => 'rico\yii2images\behaviors\ImageBehave',
-            ]
+                'class' => 'common\widgets\costaRico\yii2Images\behaviors\ImageBehave',
+            ],
         ];
     }
 

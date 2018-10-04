@@ -22,6 +22,9 @@ return [
                 ],
 
             ],
+//            'mailer' => [
+//                'class' => 'yii\swiftmailer\Mailer'
+//            ]
         ],
 
         'request' => [

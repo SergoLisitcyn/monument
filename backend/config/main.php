@@ -42,6 +42,8 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'pattern' => '/image/<item:\w+>',
+                'route' => 'yii2images/images/image-by-item-and-alias',
             ],
         ],
 

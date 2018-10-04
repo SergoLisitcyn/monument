@@ -40,7 +40,11 @@ class GalleryController extends Controller
 
                     ],
                 ],
+            ],
+            'image' => [
+                'class' => 'rico\yii2images\behaviors\ImageBehave',
             ]
+
         ];
     }
 

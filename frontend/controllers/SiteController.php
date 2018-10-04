@@ -1,6 +1,7 @@
 <?php
 namespace frontend\controllers;
 
+use common\widgets\costaRico\yii2Images\models\Image;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
@@ -209,6 +210,15 @@ class SiteController extends Controller
         }
 
         return $this->render('resetPassword', [
+            'model' => $model,
+        ]);
+    }
+
+    public function actionTypeStone()
+    {
+        $model = Image::find()->where(['itemId' => 1])->all();
+
+        return $this->render('type-stone', [
             'model' => $model,
         ]);
     }

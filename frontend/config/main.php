@@ -57,7 +57,18 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '/' => '/site/index',
+                'gravirovka' => '/site/gravirovka',
+                'gallery' => 'site/gallery',
+                'type-stone' => 'site/type-stone',
             ],
+        ],
+
+        'reCaptcha' => [
+            'name' => 'reCaptcha',
+            'class' => 'himiklab\yii2\recaptcha\ReCaptcha',
+            'siteKey' => '6LdobXwUAAAAAL06ZGgr_kZuFkefeKLbshM01n3K',
+            'secret' => '6LdobXwUAAAAAPar52mkeRo34zjrMRtfu_DW7f7o',
         ],
 
     ],

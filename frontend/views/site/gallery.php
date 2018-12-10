@@ -1,19 +1,12 @@
 <?php
 use yii\helpers\Html;
 
-$this->title = 'Виды Камня';
+$this->title = 'Галерея';
 ?>
 <div class="page-category">
     <div class="row">
         <div class="container">
-            <ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a itemprop="item" href="/"><span itemprop="name">Главная</span></a>
-                    <meta itemprop="position" content="1" />
-                </li>
-                <li class="active"><span itemprop="name">Виды Камня</span>
-                </li>
-            </ul>
+            <? $this->params['breadcrumbs'][] = ['label' => $this->title];?>
             <h1><?= Html::encode($this->title) ?></h1>
             <?php
             foreach($images as $img) {

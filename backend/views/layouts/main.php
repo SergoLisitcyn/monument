@@ -6,6 +6,7 @@
  */
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 $bundle = yiister\gentelella\assets\Asset::register($this);
 
@@ -64,7 +65,6 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                                 "items" => [
                                     ["label" => "Home", "url" => "/", "icon" => "home"],
                                     ["label" => "Галерея", "url" => ["gallery/index"], "icon" => "files-o"],
-
                                 ],
                             ]
                         )
@@ -77,7 +77,25 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
         </div>
 
         <!-- top navigation -->
+        <div class="top_nav" style="margin-left: 0">
 
+            <div class="nav_menu">
+                <nav class="" role="navigation">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="">
+                            <a href="<?php echo Url::toRoute(['/site/logout']); ?>" class="user-profile"  data-method="post" title="Logout" aria-expanded="false">
+                                <i class="fa fa-sign-out"></i> <span>Log Out</span>
+                            </a>
+
+                        </li>
+                        <li class="">
+                            <a href="/" title="Go to website"><span class="fa fa-share" aria-hidden="true"></span><span class="hidden-sm"> Frontend</span></a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
         <!-- /top navigation -->
 
         <!-- page content -->

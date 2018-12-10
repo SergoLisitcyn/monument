@@ -30,6 +30,16 @@ class SiteController extends Controller
                         'allow' => true,
                         'roles' => ['@'],
                     ],
+                    [
+                        'allow' => true,
+                        'roles' => ['admin'],
+                    ],
+                    [
+                        'allow' => false,
+                        'roles' => ['client'],
+                        'denyCallback' => function() { $this->redirect('/'); }
+                    ],
+
                 ],
             ],
             'verbs' => [
@@ -79,10 +89,12 @@ class SiteController extends Controller
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
+            if (Yii::$app->user->identity->role === 'admin') {
+                return $this->goBack();
+            } else {
+                return $this->redirect('/', 301);
+            }
         } else {
-            $model->password = '';
-
             return $this->render('login', [
                 'model' => $model,
             ]);

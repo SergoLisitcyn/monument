@@ -216,10 +216,25 @@ class SiteController extends Controller
 
     public function actionTypeStone()
     {
-        $model = Image::find()->where(['itemId' => 1])->all();
-
+        $images = Image::find()->where(['itemId' => 1])->all();
         return $this->render('type-stone', [
-            'model' => $model,
+            'images' => $images,
+        ]);
+    }
+
+    public function actionGravirovka()
+    {
+        $images = Image::find()->where(['itemId' => 2])->all();
+        return $this->render('gravirovka', [
+            'images' => $images,
+        ]);
+    }
+
+    public function actionGallery()
+    {
+        $images = Image::find()->where(['itemId' => 3])->all();
+        return $this->render('gallery', [
+            'images' => $images,
         ]);
     }
 }

@@ -20,8 +20,8 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
         "yiister/yii2-gentelella": "~1.0",
         "costa-rico/yii2-images": "dev-master",
-        "kartik-v/yii2-widget-fileinput": "@dev"
-
+        "kartik-v/yii2-widget-fileinput": "@dev",
+        "himiklab/yii2-recaptcha-widget" : "*"
 
     },
     "require-dev": {
@@ -29,7 +29,8 @@
         "yiisoft/yii2-gii": "~2.0.0",
         "yiisoft/yii2-faker": "~2.0.0",
         "codeception/base": "^2.2.3",
-        "codeception/verify": "~0.3.1"
+        "codeception/verify": "~0.3.1",
+        "costa-rico/yii2-images": "dev-master"
     },
     "config": {
         "process-timeout": 1800,

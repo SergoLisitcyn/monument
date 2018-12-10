@@ -1,54 +1,56 @@
 <?php
+use frontend\widgets\FBFWidget;
 
 /* @var $this yii\web\View */
 
 $this->title = 'Памятники в Калининграде';
 ?>
 <div class="site-index">
-
-
-
     <div class="body-content">
 
         <div class="row">
             <div class="container">
-                <h1 style="text-align: center;">Галерея</h1>
-                <div class="site-block col-lg-4">
+                <h1 style="text-align: center;">Каталог</h1>
+                <div class="site-block col-xs-4">
                     <div class="site-image">
                        <img alt="type stone" src="/images/home/type_stone.jpg">
                     </div>
                     <h2>Виды камня</h2>
                     <div class="text-block">
                     <p>Натуральные камни – самый востребованный материал для изготовления ритуальных изделий.</p>
-
-                        <div class="button-block">
-                            <span class="product-btn">ОЗНАКОМИТЬСЯ</span>
-                        </div>
+                        <a href="/type-stone">
+                            <div class="button-block">
+                                <span class="product-btn">ПОДРОБНЕЕ</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="site-block col-lg-4">
+                <div class="site-block col-xs-4">
                     <div class="site-image">
                         <img alt="type stone" src="/images/home/3.jpg">
                     </div>
                     <h2>Гравировки</h2>
                     <div class="text-block">
                     <p>Мы наносим изображения и надписи любой сложности, тщательно прорисовываем мельчайшие детали.</p>
-
-                        <div class="button-block">
-                            <span class="product-btn">ОЗНАКОМИТЬСЯ</span>
-                        </div>
+                        <a href="/gravirovka">
+                            <div class="button-block">
+                                <span class="product-btn">ПОДРОБНЕЕ</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="site-block col-lg-4">
+                <div class="site-block col-xs-4">
                     <div class="site-image">
                         <img alt="type stone" src="/images/home/2.jpg">
                     </div>
                     <h2>Галерея</h2>
                     <div class="text-block">
                     <p>В данном разделе Вы можете ознакомится с образцами выполненных нами памятников и объектов. </p>
-                    <div class="button-block">
-                        <span class="product-btn">ОЗНАКОМИТЬСЯ</span>
-                    </div>
+                    <a href="/gallery">
+                        <div class="button-block">
+                            <span class="product-btn">ПОДРОБНЕЕ</span>
+                        </div>
+                    </a>
                     </div>
 
                 </div>
@@ -128,6 +130,6 @@ $this->title = 'Памятники в Калининграде';
 
                 </div>
             </div>
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af41de4d62212f330825dace602eb5ce9d55f3a8a5772b63988e620f6cc5eb0cb&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af41de4d62212f330825dace602eb5ce9d55f3a8a5772b63988e620f6cc5eb0cb&amp;width=100%25&amp;height=490&amp;lang=ru_RU&amp;scroll=false"></script>
     </div>
 </div>

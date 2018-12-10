@@ -18,10 +18,8 @@ AppAsset::register($this);
 <html lang="<?= Yii::$app->language ?>">
 <head>
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
-
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -65,7 +63,7 @@ AppAsset::register($this);
                         <div class="company-phones">
                             <div>
                                 <i class="material-icons" style="vertical-align: middle;">phone_in_talk</i>
-                                <a href="tel:+7 (909) 793-83-73">+7 (909) 793-83-73</a>
+                                <a href="tel:+79097938373">+7 (909) 793-83-73</a>
                             </div>
                         </div>
                     </div>
@@ -73,7 +71,6 @@ AppAsset::register($this);
             </div>
         </div>
     </div>
-
     <div class="slider">
         <div class="section no-pad-bot">
             <div class="container">
@@ -90,22 +87,50 @@ AppAsset::register($this);
     </div>
     <?= FBFWidget::widget([]) ?>
 
+
 <!--    <div class="container">-->
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
+<!--        --><?//= Breadcrumbs::widget([
+//            'homeLink' => ['label' => 'Главная', 'url' => '/'],
+//            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+//        ]) ?>
         <?= Alert::widget() ?>
         <?= $content ?>
 <!--    </div>-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-block">
+                <div class="row">
+                    <div class="col-xs-3 logo-footer-block">
+                        <div>
+                            <img class="logo-footer img-responsive" src="/theme/images/logo_name.png" alt="ИП Памятники">                    </div>
+                        <div class="text-center" style="color: #ffffff;">
+                            <div style="margin-top: 10px;">ИП Лисицын Виктор Борисович</div>
+                            <div>ИНН 390500376110</div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-2 col-xs-offset-7 link-footer-block text-right">
+                        <div>            <a href="tel:+79097938373" class="footer-link-info">+7 (909) 793-83-73</a>
+                        </div>
+                        <div class="footer-link-descr">Пн-Сб с 10.00 до 17.00</div>
+                        <div>            <a href="mailto:victor1714@mail.ru" class="footer-link-info">victor1714@mail.ru</a>
+                        </div>
+                        <div class="footer-link-descr">пишите в любое время</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </div>
 
-<footer class="footer">
-    <div class="container">
-        <p class="pull-left">&copy; ИП Лисицын В.Б. <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
-    </div>
-</footer>
+<!--<footer class="footer">-->
+<!--    <div class="container">-->
+<!--        <p class="pull-left">&copy; ИП Лисицын В.Б. --><?//= date('Y') ?><!--</p>-->
+<!---->
+<!--        <p class="pull-right">--><?//= Yii::powered() ?><!--</p>-->
+<!--    </div>-->
+<!--</footer>-->
 
 <?php $this->endBody() ?>
 </body>

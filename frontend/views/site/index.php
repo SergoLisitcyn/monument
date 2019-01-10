@@ -8,7 +8,7 @@ $this->title = 'Памятники в Калининграде';
 <div class="site-index">
     <div class="body-content">
 
-        <div class="row">
+        <div class="row" style="margin-left: 0;margin-right: 0">
             <div class="container">
                 <h1 style="text-align: center;">Каталог</h1>
                 <div class="site-block col-xs-4">

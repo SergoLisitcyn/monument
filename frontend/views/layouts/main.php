@@ -101,8 +101,9 @@ AppAsset::register($this);
             <div class="footer-block">
                 <div class="row">
                     <div class="col-xs-3 logo-footer-block">
-                        <div>
-                            <img class="logo-footer img-responsive" src="/theme/images/logo_name.png" alt="ИП Памятники">                    </div>
+<!--                        <div>-->
+<!--                            <img class="logo-footer img-responsive" src="/theme/images/logo_name.png" alt="ИП Памятники">                   -->
+<!--                        </div>-->
                         <div class="text-center" style="color: #ffffff;">
                             <div style="margin-top: 10px;">ИП Лисицын Виктор Борисович</div>
                             <div>ИНН 390500376110</div>

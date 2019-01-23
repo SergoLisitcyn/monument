@@ -3,17 +3,17 @@ use frontend\widgets\FBFWidget;
 
 /* @var $this yii\web\View */
 
-$this->title = 'Памятники в Калининграде';
+$this->title = 'Изготовление и благоустройство памятников в Калининграде';
 ?>
 <div class="site-index">
     <div class="body-content">
 
         <div class="row" style="margin-left: 0;margin-right: 0">
             <div class="container">
-                <h1 style="text-align: center;">Каталог</h1>
+                <h2 class="home-title" style="text-align: center;">Каталог</h2>
                 <div class="site-block col-xs-4">
                     <div class="site-image">
-                       <img alt="type stone" src="/images/home/type_stone.jpg">
+                       <img alt="Камень"  title="Камень в Калининграде" src="/images/home/type_stone.jpg">
                     </div>
                     <h2>Виды камня</h2>
                     <div class="text-block">
@@ -27,7 +27,7 @@ $this->title = 'Памятники в Калининграде';
                 </div>
                 <div class="site-block col-xs-4">
                     <div class="site-image">
-                        <img alt="type stone" src="/images/home/3.jpg">
+                        <img alt="Гравировки" title="Гравировки в Калининграде" src="/images/home/3.jpg">
                     </div>
                     <h2>Гравировки</h2>
                     <div class="text-block">
@@ -41,7 +41,7 @@ $this->title = 'Памятники в Калининграде';
                 </div>
                 <div class="site-block col-xs-4">
                     <div class="site-image">
-                        <img alt="type stone" src="/images/home/2.jpg">
+                        <img alt="Галерея"  title="Памятники в Калининграде" src="/images/home/2.jpg">
                     </div>
                     <h2>Галерея</h2>
                     <div class="text-block">
@@ -58,7 +58,7 @@ $this->title = 'Памятники в Калининграде';
         </div>
         <div class="about-company">
             <div class="container">
-                <h1 style="text-align: center">О компании</h1>
+                <h2 class="home-title" style="text-align: center">О компании</h2>
                 <p style="color: rgba(0, 0, 0, 0.74);">
                     «ИП Пямятники» производит памятники и надгробия в Калининграде и предлагает полный спектр услуг по установке ритуальных конструкций и оформлению могил на территории Калининградской области.<br><br>
 
@@ -70,15 +70,15 @@ $this->title = 'Памятники в Калининграде';
         </div>
         <div class="index-gallery">
             <div class="container">
-                <h1 style="text-align: center">Галерея выполненных работ</h1>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_1.JPG"><img style="margin-bottom: 10px;" alt="Памятники" src="/images/index-gallery/IMG_1.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_2.JPG"><img style="margin-bottom: 10px;" alt="Памятники" src="/images/index-gallery/IMG_2.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_6.JPG"><img style="margin-bottom: 10px;" alt="Памятники" src="/images/index-gallery/IMG_6.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_4.JPG"><img style="margin-bottom: 10px;" alt="Памятники" src="/images/index-gallery/IMG_4.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_5.JPG"><img  alt="Памятники" src="/images/index-gallery/IMG_5.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_6.JPG"><img  alt="Памятники" src="/images/index-gallery/IMG_6.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_7.JPG"><img  alt="Памятники" src="/images/index-gallery/IMG_7.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_8.JPG"><img  alt="Памятники" src="/images/index-gallery/IMG_8.JPG"></a>
+                <h2 class="home-title" style="text-align: center">Галерея выполненных работ</h2>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_1.JPG"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_1.JPG"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_2.JPG"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_2.JPG"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_6.JPG"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_6.JPG"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_4.JPG"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_4.JPG"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_5.JPG"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_5.JPG"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_6.JPG"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_6.JPG"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_7.JPG"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_7.JPG"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_8.JPG"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_8.JPG"></a>
 
             </div>
         </div>

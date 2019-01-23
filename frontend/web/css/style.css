@@ -372,3 +372,8 @@ body{
     padding: 20px;
     border-radius: 30px;
 }
+
+.home-title{
+    font-size: 36px;
+    margin-bottom: 20px;
+}

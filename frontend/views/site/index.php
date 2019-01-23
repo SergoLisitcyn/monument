@@ -71,14 +71,14 @@ $this->title = 'Изготовление и благоустройство па�
         <div class="index-gallery">
             <div class="container">
                 <h2 class="home-title" style="text-align: center">Галерея выполненных работ</h2>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_1.JPG"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_1.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_2.JPG"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_2.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_6.JPG"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_6.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_4.JPG"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_4.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_5.JPG"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_5.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_6.JPG"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_6.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_7.JPG"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_7.JPG"></a>
-                <a data-fancybox="gallery" href="/images/index-gallery/IMG_8.JPG"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_8.JPG"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_1.jpg"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_1.jpg"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_2.jpg"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_2.jpg"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_6.jpg"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_6.jpg"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_4.jpg"><img style="margin-bottom: 10px;" alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_4.jpg"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_5.jpg"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_5.jpg"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_6.jpg"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_6.jpg"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_7.jpg"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_7.jpg"></a>
+                <a data-fancybox="gallery" href="/images/index-gallery/IMG_8.jpg"><img  alt="Памятники" title="Памятники в Калининграде" src="/images/index-gallery/IMG_8.jpg"></a>
 
             </div>
         </div>

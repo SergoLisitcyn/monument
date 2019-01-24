@@ -22,9 +22,9 @@ AppAsset::register($this);
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--    <meta name="viewport" content="width=1200">-->
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=1200">
     <meta name="google-site-verification" content="rphj6uxEZjhQQvgKdiyQ9LwPwVEGhHE7fUjRO8U6paM" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta name="description" content="Изготовление памятников и обустройство могил в Калининграде. Установка и доставка. Гарантия от 2x лет. Более 100 моделей памятников на могилу.">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132536028-1"></script>
@@ -35,6 +35,13 @@ AppAsset::register($this);
 
         gtag('config', 'UA-132536028-1');
     </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WPW2Z94');</script>
+    <!-- End Google Tag Manager -->
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -57,6 +64,10 @@ AppAsset::register($this);
     <?php $this->head() ?>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPW2Z94"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <?php $this->beginBody() ?>
 <?php $this->registerLinkTag(['rel' => 'canonical', 'href' => \yii\helpers\Url::canonical()]); ?>
 <div class="wrap">
@@ -128,7 +139,7 @@ AppAsset::register($this);
 <!--                            <img class="logo-footer img-responsive" src="/theme/images/logo_name.png" alt="ИП Памятники">                   -->
 <!--                        </div>-->
                         <div class="text-center" style="color: #ffffff;">
-                            <div style="margin-top: 10px;">ИП Лисицын Виктор Борисович</div>
+                            <div style="margin-top: 10px;">ИП Лисицын В.Б.</div>
                             <div>ИНН 390500376110</div>
                         </div>
                     </div>

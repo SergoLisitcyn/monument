@@ -132,7 +132,7 @@ AppAsset::register($this);
 <!--    </div>-->
     <footer class="footer">
         <div class="container">
-            <div class="footer-block">
+            <div class="footer-block" itemscope itemtype="https://schema.org/Organization">
                 <div class="row">
                     <div class="col-xs-3 logo-footer-block">
 <!--                        <div>-->
@@ -145,10 +145,10 @@ AppAsset::register($this);
                     </div>
 
                     <div class="col-xs-2 col-xs-offset-7 link-footer-block text-right">
-                        <div>            <a href="tel:+79097938373" class="footer-link-info">+7 (909) 793-83-73</a>
+                        <div>            <a href="tel:+79097938373" itemprop="telephone" content="+79097938373" class="footer-link-info">+7 (909) 793-83-73</a>
                         </div>
                         <div class="footer-link-descr">Пн-Сб с 10.00 до 17.00</div>
-                        <div>            <a href="mailto:victor1714@mail.ru" class="footer-link-info">victor1714@mail.ru</a>
+                        <div>            <a href="mailto:victor1714@mail.ru"  itemprop="email" content="victor1714@mail.ru" class="footer-link-info">victor1714@mail.ru</a>
                         </div>
                         <div class="footer-link-descr">пишите в любое время</div>
                     </div>

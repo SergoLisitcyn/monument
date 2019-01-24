@@ -234,6 +234,7 @@ body{
     color: #fff;
     text-decoration: none;
     border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-size: 16px;
 }
 
 .footer{
@@ -310,6 +311,7 @@ body{
 .footer a {
     color: #ffffff;
     transition: color 0.4s ease;
+    font-size: 16px;
 }
 
 .site-index h1{

@@ -120,7 +120,7 @@ $this->title = 'Изготовление и благоустройство па�
 
                         <div class="arh-contact">
                             <h2>Контактная информация</h2>
-                            <p>г. Калининград, ул. Невского 18</p>
+                            <p>г. Калининград, ул. Некрасова 18</p>
                             <p>График работы: Пн-Сб с 10:00 до 17:00 </p>
                             <p><span class="glyphicon glyphicon-envelope"></span>  <a href="mailto:victor1714@mail.ru">victor1714@mail.ru</a></p>
                             <p><span class="glyphicon glyphicon-earphone"></span>  <a class="tel" href="tel:+79097938373">+7 (909) 793-83-73</a></p>

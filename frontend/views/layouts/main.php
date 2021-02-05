@@ -247,7 +247,6 @@ AppAsset::register($this);
 <script src="../js/jquery.slicknav.min.js"></script>
 <script src="../js/jquery.magnific-popup.min.js"></script>
 <script src="../js/plugins.js"></script>
-<script src="../js/gijgo.min.js"></script>
 <!--contact js-->
 <!--<script src="js/contact.js"></script>-->
 <script src="../js/jquery.ajaxchimp.min.js"></script>

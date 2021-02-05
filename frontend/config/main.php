@@ -59,8 +59,14 @@ return [
             'rules' => [
                 '/' => '/site/index',
                 'gravirovka' => '/site/gravirovka',
-                'gallery' => 'site/gallery',
                 'type-stone' => 'site/type-stone',
+                [
+                    'pattern' => 'site/<url:\S+>',
+                    'route' => '/site/gallery',
+                    'defaults' => ['url' => 'error']
+                ],
+                'image' => 'yii2images/images/image-by-item-and-alias',
+
             ],
         ],
 

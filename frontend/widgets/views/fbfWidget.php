@@ -55,13 +55,10 @@ use yii\captcha\Captcha;
                 <?= $form->field($model, 'subject')->textInput(['placeholder' => "Тема сообщения:"])->label(false)->error(false) ?>
 
                 <?= $form->field($model, 'body')->textarea(['rows' => 3])->label(false)->error(false) ?>
-                <?= $form->field($model, 'reCaptcha')->label('Верификации')->widget(
-                    \himiklab\yii2\recaptcha\ReCaptcha::className(),
-                    ['siteKey' => '6LdobXwUAAAAAL06ZGgr_kZuFkefeKLbshM01n3K']
-                ) ?>
-<!--                --><?//= $form->field($model, 'verifyCode')->label('Код верификации')->widget(Captcha::className(), [
-//                    'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-//                ]) ?>
+
+                <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
+                    'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
+                ]) ?>
 
             </div>
             <div class="modal-footer">

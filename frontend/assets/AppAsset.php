@@ -12,8 +12,8 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
-        'css/style.css',
+//        'css/site.css',
+//        'css/style.css',
         'https://fonts.googleapis.com/icon?family=Material+Icons',
 //        'https://fonts.googleapis.com/css?family=Montserrat',
         'https://fonts.googleapis.com/css?family=Roboto',
@@ -24,6 +24,6 @@ class AppAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+//        'yii\bootstrap\BootstrapAsset',
     ];
 }

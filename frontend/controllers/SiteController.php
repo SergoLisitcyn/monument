@@ -73,7 +73,21 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $model = new ContactForm();
+        if ($model->load(Yii::$app->request->post())) {
+            if ($model->sendEmail()) {
+                Yii::$app->session->setFlash('success', 'Спасибо за обращение.Мы скоро с вами свяжемся');
+            } else {
+                Yii::$app->session->setFlash('error', 'Ошибка.Сообщение не отправлено');
+            }
+
+            return $this->refresh();
+        } else {
+            return $this->render('index', [
+                'model' => $model,
+            ]);
+        }
+//        return $this->render('index');
     }
 
     /**
@@ -119,16 +133,16 @@ class SiteController extends Controller
     public function actionContact()
     {
         $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-                Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+        if ($model->load(Yii::$app->request->post())) {
+            if ($model->sendEmail()) {
+                Yii::$app->session->setFlash('success', 'Спасибо за обращение.Мы скоро с вами свяжемся');
             } else {
-                Yii::$app->session->setFlash('error', 'There was an error sending your message.');
+                Yii::$app->session->setFlash('error', 'Ошибка.Сообщение не отправлено');
             }
 
             return $this->refresh();
         } else {
-            return $this->render('contact', [
+            return $this->render('index', [
                 'model' => $model,
             ]);
         }
@@ -230,11 +244,48 @@ class SiteController extends Controller
         ]);
     }
 
-    public function actionGallery()
+    public function actionGallery1()
     {
         $images = Image::find()->where(['itemId' => 3])->all();
         return $this->render('gallery', [
             'images' => $images,
         ]);
+    }
+
+    public function actionGallery($url)
+    {
+        if($url == 'gallery'){
+            $itemId = 1;
+            $title = 'Галерея';
+        } elseif ($url == 'vertical'){
+            $itemId = 2;
+            $title = 'Вертикальные';
+        } elseif ($url == 'gorizontal'){
+            $itemId = 3;
+            $title = 'Горизонтальные';
+        } elseif ($url == 'vertical-figure'){
+            $itemId = 4;
+            $title = 'Вертикальные фигурные';
+        } elseif ($url == 'dvoinoi'){
+            $itemId = 5;
+            $title = 'Двойной';
+        } elseif ($url == 'sale'){
+            $itemId = 6;
+            $title = 'Недорогие памятники';
+        } elseif ($url == 'other'){
+            $itemId = 7;
+            $title = 'Лавки,вазы,оградки';
+        } else {
+            return $this->redirect('index');
+        }
+        if(isset($itemId)){
+            $images = Image::find()->where(['itemId' => $itemId])->all();
+            return $this->render('gallery', [
+                'images' => $images,
+                'title' => $title,
+            ]);
+        } else {
+            return $this->redirect('index');
+        }
     }
 }

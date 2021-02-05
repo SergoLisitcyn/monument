@@ -24,8 +24,6 @@ $this->title = 'Памятники на могилу в Калининграде
         </div>
     </div>
 </div>
-<!-- slider_area_end -->
-<!-- offers_area_start -->
 <div class="our_department_area">
     <div class="container">
         <div class="row">

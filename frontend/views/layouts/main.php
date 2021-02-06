@@ -19,6 +19,7 @@ AppAsset::register($this);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="rphj6uxEZjhQQvgKdiyQ9LwPwVEGhHE7fUjRO8U6paM" />
+    <meta name="yandex-verification" content="0793a1a4af5b42cd" />
     <meta name="description" content="Изготовление памятников и обустройство могил в Калининграде. Установка и доставка. Гарантия от 2x лет. Более 100 моделей памятников на могилу.">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132536028-1"></script>

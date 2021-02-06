@@ -171,18 +171,18 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-6 col-lg-6">
                 <div class="welcome_thumb">
                     <div class="thumb_1">
-                        <img src="../img/main/onas2.jpg" alt="">
+                        <img src="../img/main/onas2.jpg" alt="Памятники на могилу в Калининграде">
 
                     </div>
                     <div class="thumb_2">
-                        <img src="../img/main/onas1.jpg" alt="">
+                        <img src="../img/main/onas1.jpg" alt="Памятники на могилу в Калининграде">
                     </div>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-6">
                 <div class="welcome_docmed_info">
                     <h2>О компании</h2>
-                    <p>С 1998 года мы предоставляем жителям региона качественный сервис и широкий выбор материалов для изготовления памятных знаков.
+                    <p>С 1999 года мы предоставляем жителям региона качественный сервис и широкий выбор материалов для изготовления памятных знаков.
                         У нас Вы найдете все необходимое. Каталог продукции разнообразен по цене от простых моделей до заказных, индивидуальных.
                     </p>
                     <ul>
@@ -244,7 +244,7 @@ $this->title = 'Памятники на могилу в Калининграде
                         </div>
                         <div class="col-xl-6 col-md-6">
                             <div class="business_thumb">
-                                <img src="../img/main/granit.jpg" alt="">
+                                <img src="../img/main/granit.jpg" alt="Памятники на могилу в Калининграде">
                             </div>
                         </div>
                     </div>
@@ -283,7 +283,7 @@ $this->title = 'Памятники на могилу в Калининграде
                         </div>
                         <div class="col-xl-6 col-md-6">
                             <div class="business_thumb">
-                                <img src="../img/main/granit.jpg" alt="">
+                                <img src="../img/main/granit.jpg" alt="Памятники на могилу в Калининграде">
                             </div>
                         </div>
                     </div>

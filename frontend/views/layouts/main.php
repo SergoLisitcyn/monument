@@ -202,32 +202,32 @@ AppAsset::register($this);
     </div>
 </footer>
 <!-- form itself end-->
-<form id="test-form" class="white-popup-block mfp-hide" action="/" method="post">
-    <div class="popup_box ">
-        <div class="popup_inner">
-            <h3>Свяжитесь с нами</h3>
-            <form>
-                <div class="row">
-                    <div class="col-xl-6">
-                        <input type="text" name="ContactForm[name]"  placeholder="Ваше Имя">
-                    </div>
-                    <div class="col-xl-6">
-                        <input type="text" name="ContactForm[phone]"  placeholder="Ваш телефон">
-                    </div>
-                    <div class="col-xl-12">
-                        <input type="email"  name="ContactForm[email]" placeholder="Ваш Email">
-                    </div>
-                    <div class="col-xl-12">
-                        <textarea id="contactform-body" class="form-control" name="ContactForm[body]" rows="6" aria-required="true" placeholder="Ваше сообщение"></textarea>
-                    </div>
-                    <div class="col-xl-12">
-                        <button type="submit" class="boxed-btn3">Отправить</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</form>
+<!--<form id="test-form" class="white-popup-block mfp-hide" action="/" method="post">-->
+<!--    <div class="popup_box ">-->
+<!--        <div class="popup_inner">-->
+<!--            <h3>Свяжитесь с нами</h3>-->
+<!--            <form>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-xl-6">-->
+<!--                        <input type="text" name="ContactForm[name]"  placeholder="Ваше Имя">-->
+<!--                    </div>-->
+<!--                    <div class="col-xl-6">-->
+<!--                        <input type="text" name="ContactForm[phone]"  placeholder="Ваш телефон">-->
+<!--                    </div>-->
+<!--                    <div class="col-xl-12">-->
+<!--                        <input type="email"  name="ContactForm[email]" placeholder="Ваш Email">-->
+<!--                    </div>-->
+<!--                    <div class="col-xl-12">-->
+<!--                        <textarea id="contactform-body" class="form-control" name="ContactForm[body]" rows="6" aria-required="true" placeholder="Ваше сообщение"></textarea>-->
+<!--                    </div>-->
+<!--                    <div class="col-xl-12">-->
+<!--                        <button type="submit" class="boxed-btn3">Отправить</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</form>-->
 <!-- form itself end -->
 <!-- footer end  -->
 <!-- JS here -->

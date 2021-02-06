@@ -41,7 +41,7 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="single_department">
                     <div class="department_thumb">
-                        <img src="../img/main/ver-1.jpg" alt="" style="height: 350px;">
+                        <img src="../img/main/ver-1.jpg" alt="Вертикальные памятники Калининград" style="height: 350px;">
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'vertical']) ?>">Вертикальные</a></h3>
@@ -54,7 +54,7 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="single_department">
                     <div class="department_thumb">
-                        <img src="../img/main/gorizontal.jpg" alt="">
+                        <img src="../img/main/gorizontal.jpg" alt="Горизонтальные памятники Калининград">
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'gorizontal']) ?>">Горизонтальные</a></h3>
@@ -67,7 +67,7 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="single_department">
                     <div class="department_thumb">
-                        <img src="../img/main/figure-vertical-1.jpg" alt="" style="height: 350px;">
+                        <img src="../img/main/figure-vertical-1.jpg" alt="Вертикальные памятники Калининград" style="height: 350px;">
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'vertical-figure']) ?>">Вертикальные фигурные</a></h3>
@@ -80,7 +80,7 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="single_department">
                     <div class="department_thumb">
-                        <img src="../img/main/dvoinoy.jpg" alt="">
+                        <img src="../img/main/dvoinoy.jpg" alt="Двойные памятники Калининград">
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'dvoinoi']) ?>">Двойные</a></h3>
@@ -93,7 +93,7 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="single_department">
                     <div class="department_thumb">
-                        <img src="../img/main/nedorogoi1.jpg" alt="" style="height: 350px;">
+                        <img src="../img/main/nedorogoi1.jpg" alt="Недорогие памятники Калининград" style="height: 350px;">
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'sale']) ?>">Недорогие памятники</a></h3>
@@ -106,7 +106,7 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="single_department">
                     <div class="department_thumb">
-                        <img src="../img/main/ograd.jpg" alt="">
+                        <img src="../img/main/ograd.jpg" alt="Оградки,Лавки,Вазы Калининград">
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'other']) ?>">Лавки,вазы,оградки</a></h3>

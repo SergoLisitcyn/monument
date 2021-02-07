@@ -30,7 +30,7 @@ class ContactForm extends Model
             ['email', 'email'],
             // verifyCode needs to be entered correctly
             ['verifyCode', 'captcha'],
-            [['reCaptcha'], \himiklab\yii2\recaptcha\ReCaptchaValidator::className(), 'secret' => '6LdobXwUAAAAAPar52mkeRo34zjrMRtfu_DW7f7o', 'uncheckedMessage' => 'Пожалуйста, подтвердите, что вы не робот.'],
+//            [['reCaptcha'], \himiklab\yii2\recaptcha\ReCaptchaValidator::className(), 'secret' => '6LdobXwUAAAAAPar52mkeRo34zjrMRtfu_DW7f7o', 'uncheckedMessage' => 'Пожалуйста, подтвердите, что вы не робот.'],
 
         ];
     }
@@ -38,13 +38,6 @@ class ContactForm extends Model
     /**
      * {@inheritdoc}
      */
-//    public function attributeLabels()
-//    {
-//        return [
-//            'verifyCode' => 'Verification Code',
-//        ];
-//    }
-
     public function attributeLabels()
     {
         return [

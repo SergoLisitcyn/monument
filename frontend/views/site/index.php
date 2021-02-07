@@ -41,11 +41,11 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="single_department">
                     <div class="department_thumb">
-                        <img src="../img/main/ver-1.jpg" alt="Памятники на могилу Калининград" style="height: 350px;">
+                        <img src="../img/main/onas2.jpg" alt="Памятники на могилу Калининград" style="height: 350px;">
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'vertical']) ?>">Наши работы</a></h3>
-                        <p>В данном разделе Вы можете ознакомится с образцами выполненных нами памятников.
+                        <p>В данном разделе Вы можете ознакомиться с образцами выполненных нами памятников.
                         </p>
                         <a href="<?= Url::toRoute(['site/gallery', 'url' => 'vertical']) ?>" class="learn_more">Подробнее</a>
                     </div>
@@ -58,7 +58,7 @@ $this->title = 'Памятники на могилу в Калининграде
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'other']) ?>">Лавки,вазы,оградки</a></h3>
-                        <p>В данном разделе Вы можете ознакомится с образцами выполненных нами памятников.
+                        <p>В данном разделе Вы можете ознакомиться с образцами выполненных нами памятников.
                         </p>
                         <a href="<?= Url::toRoute(['site/gallery', 'url' => 'other']) ?>" class="learn_more">Подробнее</a>
                     </div>
@@ -70,53 +70,13 @@ $this->title = 'Памятники на могилу в Калининграде
                         <img src="../img/main/gorizontal.jpg" alt="Горизонтальные памятники Калининград">
                     </div>
                     <div class="department_content">
-                        <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'gorizontal']) ?>">Горизонтальные</a></h3>
-                        <p>В данном разделе Вы можете ознакомится с образцами выполненных нами памятников.
+                        <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'gorizontal']) ?>">Виды памятников</a></h3>
+                        <p>В данном разделе Вы можете ознакомиться с образцами выполненных нами памятников.
                         </p>
                         <a href="<?= Url::toRoute(['site/gallery', 'url' => 'gorizontal']) ?>" class="learn_more">Подробнее</a>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 col-lg-4">
-                <div class="single_department">
-                    <div class="department_thumb">
-                        <img src="../img/main/figure-vertical-1.jpg" alt="Вертикальные памятники Калининград" style="height: 350px;">
-                    </div>
-                    <div class="department_content">
-                        <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'vertical-figure']) ?>">Вертикальные фигурные</a></h3>
-                        <p>В данном разделе Вы можете ознакомится с образцами выполненных нами памятников.
-                        </p>
-                        <a href="<?= Url::toRoute(['site/gallery', 'url' => 'vertical-figure']) ?>" class="learn_more">Подробнее</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6 col-lg-4">
-                <div class="single_department">
-                    <div class="department_thumb">
-                        <img src="../img/main/dvoinoy.jpg" alt="Двойные памятники Калининград">
-                    </div>
-                    <div class="department_content">
-                        <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'dvoinoi']) ?>">Двойные</a></h3>
-                        <p>В данном разделе Вы можете ознакомится с образцами выполненных нами памятников.
-                        </p>
-                        <a href="<?= Url::toRoute(['site/gallery', 'url' => 'dvoinoi']) ?>" class="learn_more">Подробнее</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6 col-lg-4">
-                <div class="single_department">
-                    <div class="department_thumb">
-                        <img src="../img/main/nedorogoi1.jpg" alt="Недорогие памятники Калининград" style="height: 350px;">
-                    </div>
-                    <div class="department_content">
-                        <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'sale']) ?>">Недорогие памятники</a></h3>
-                        <p>В данном разделе Вы можете ознакомится с образцами выполненных нами памятников.
-                        </p>
-                        <a href="<?= Url::toRoute(['site/gallery', 'url' => 'sale']) ?>" class="learn_more">Подробнее</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>
@@ -132,7 +92,7 @@ $this->title = 'Памятники на могилу в Калининграде
 <!--                        <i class="flaticon-electrocardiogram"></i>-->
                     </div>
                     <h3>Надежная компания</h3>
-                    <p>На рынке с 1999 года. Даем реальные гарантии: 25 лет на продукцию.
+                    <p>На рынке с 1999 года. Даем реальные гарантии: 2 года на продукцию.
                     </p>
                     <a href="#" class="boxed-btn3-white">Обратный звонок</a>
                 </div>

@@ -60,6 +60,7 @@ return [
                 '/' => '/site/index',
                 'gravirovka' => '/site/gravirovka',
                 'type-stone' => 'site/type-stone',
+                'contact' => 'site/contact',
                 [
                     'pattern' => 'site/<url:\S+>',
                     'route' => '/site/gallery',

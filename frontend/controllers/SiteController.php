@@ -87,7 +87,9 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
-//        return $this->render('index');
+        return $this->render('index', [
+            'model' => $model,
+        ]);
     }
 
     /**

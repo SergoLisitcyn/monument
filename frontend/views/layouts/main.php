@@ -63,6 +63,7 @@ AppAsset::register($this);
     <link rel="stylesheet" href="../css/slicknav.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <?php $this->registerLinkTag(['rel' => 'canonical', 'href' => \yii\helpers\Url::canonical()]); ?>
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
@@ -203,39 +204,36 @@ AppAsset::register($this);
     </div>
 </footer>
 <!-- form itself end-->
-<form id="test-form" class="white-popup-block mfp-hide" action="/" method="post">
-    <div class="popup_box ">
-        <div class="popup_inner">
-            <h3>Свяжитесь с нами</h3>
-            <form>
-                <div class="row">
-                    <div class="col-xl-6">
-                        <input type="text" name="ContactForm[name]"  placeholder="Ваше Имя">
-                    </div>
-                    <div class="col-xl-6">
-                        <input type="text" name="ContactForm[phone]"  placeholder="Ваш телефон">
-                    </div>
-                    <div class="col-xl-12">
-                        <input type="email"  name="ContactForm[email]" placeholder="Ваш Email">
-                    </div>
-                    <div class="col-xl-12">
-                        <textarea id="contactform-body" class="form-control" name="ContactForm[body]" rows="6" aria-required="true" placeholder="Ваше сообщение"></textarea>
-                    </div>
-                    <div class="col-xl-12">
-                        <button class="g-recaptcha"
-                                data-sitekey="6Le8_k0aAAAAAOQ3HKCqL6PvKoJS_Qi19kJ_zi0D"
-                                data-callback='onSubmit'
-                                data-action='submit'>Отправить</button>
-                    </div>
-
-                    <div class="col-xl-12">
-                        <button type="submit" class="boxed-btn3">Отправить</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</form>
+<!--<form id="test-form" class="white-popup-block mfp-hide" action="/" method="post">-->
+<!--    <div class="popup_box ">-->
+<!--        <div class="popup_inner">-->
+<!--            <h3>Свяжитесь с нами</h3>-->
+<!--            <form>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-xl-6">-->
+<!--                        <input type="text" name="ContactForm[name]"  placeholder="Ваше Имя">-->
+<!--                    </div>-->
+<!--                    <div class="col-xl-6">-->
+<!--                        <input type="text" name="ContactForm[phone]"  placeholder="Ваш телефон">-->
+<!--                    </div>-->
+<!--                    <div class="col-xl-12">-->
+<!--                        <input type="email"  name="ContactForm[email]" placeholder="Ваш Email">-->
+<!--                    </div>-->
+<!--                    <div class="col-xl-12">-->
+<!--                        <textarea id="contactform-body" class="form-control" name="ContactForm[body]" rows="6" aria-required="true" placeholder="Ваше сообщение"></textarea>-->
+<!--                    </div>-->
+<!--                    <div class="col-xl-12">-->
+<!--                        <div class="g-recaptcha" data-sitekey="6LcDBE4aAAAAAKYO7sQ1NUd8G2rEJc9MDTJ_ceh5"></div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="col-xl-12">-->
+<!--                        <button type="submit" class="boxed-btn3">Отправить</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</form>-->
 <!-- form itself end -->
 <!-- footer end  -->
 <!-- JS here -->
@@ -263,7 +261,6 @@ AppAsset::register($this);
 <script src="../js/jquery.validate.min.js"></script>
 <script src="../js/mail-script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
-<script src="https://www.google.com/recaptcha/api.js"></script>
 <script>
     function onSubmit(token) {
         document.getElementById("test-form").submit();

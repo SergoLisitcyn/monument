@@ -20,8 +20,7 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
         "yiister/yii2-gentelella": "~1.0",
         "costa-rico/yii2-images": "dev-master",
-        "kartik-v/yii2-widget-fileinput": "@dev",
-        "himiklab/yii2-recaptcha-widget" : "*"
+        "kartik-v/yii2-widget-fileinput": "@dev"
 
     },
     "require-dev": {

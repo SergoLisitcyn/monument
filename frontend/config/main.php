@@ -70,14 +70,11 @@ return [
 
             ],
         ],
-
         'reCaptcha' => [
-            'name' => 'reCaptcha',
-            'class' => 'himiklab\yii2\recaptcha\ReCaptcha',
-            'siteKey' => '6LcDBE4aAAAAAKYO7sQ1NUd8G2rEJc9MDTJ_ceh5',
-            'secret' => '6LcDBE4aAAAAABV5_aub9vSAJgA9hvbfVNDBtqhn',
+            'class' => 'himiklab\yii2\recaptcha\ReCaptchaConfig',
+            'siteKeyV2' => '6LcDBE4aAAAAAKYO7sQ1NUd8G2rEJc9MDTJ_ceh5',
+            'secretV2' => '6LcDBE4aAAAAABV5_aub9vSAJgA9hvbfVNDBtqhn',
         ],
-
     ],
     'params' => $params,
 ];

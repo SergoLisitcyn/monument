@@ -32,7 +32,7 @@ use yii\captcha\Captcha;
                     </div>
                     <div class="col-xl-12">
                         <?= $form->field($model, 'reCaptcha')->widget(
-                            \himiklab\yii2\recaptcha\ReCaptcha::className(),
+                            \himiklab\yii2\recaptcha\ReCaptcha2::className(),
                             [
                                 'siteKey' => '6LcDBE4aAAAAAKYO7sQ1NUd8G2rEJc9MDTJ_ceh5', // unnecessary is reCaptcha component was set up
                             ]

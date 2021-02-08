@@ -44,10 +44,10 @@ $this->title = 'Памятники на могилу в Калининграде
                         <img src="../img/main/onas2.jpg" alt="Памятники на могилу Калининград" style="height: 350px;">
                     </div>
                     <div class="department_content">
-                        <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'vertical']) ?>">Наши работы</a></h3>
+                        <h3><a href="<?= Url::toRoute(['gallery/gallery', 'url' => 'vertical']) ?>">Наши работы</a></h3>
                         <p>В данном разделе Вы можете ознакомиться с образцами выполненных нами памятников.
                         </p>
-                        <a href="<?= Url::toRoute(['site/gallery', 'url' => 'vertical']) ?>" class="learn_more">Подробнее</a>
+                        <a href="<?= Url::toRoute(['gallery/gallery', 'url' => 'vertical']) ?>" class="learn_more">Подробнее</a>
                     </div>
                 </div>
             </div>
@@ -57,10 +57,10 @@ $this->title = 'Памятники на могилу в Калининграде
                         <img src="../img/main/ograd.jpg" alt="Оградки,Лавки,Вазы Калининград">
                     </div>
                     <div class="department_content">
-                        <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'other']) ?>">Лавки,вазы,оградки</a></h3>
+                        <h3><a href="<?= Url::toRoute(['gallery/gallery', 'url' => 'other']) ?>">Лавки,вазы,оградки</a></h3>
                         <p>В данном разделе Вы можете ознакомиться с образцами выполненных нами памятников.
                         </p>
-                        <a href="<?= Url::toRoute(['site/gallery', 'url' => 'other']) ?>" class="learn_more">Подробнее</a>
+                        <a href="<?= Url::toRoute(['gallery/gallery', 'url' => 'other']) ?>" class="learn_more">Подробнее</a>
                     </div>
                 </div>
             </div>
@@ -70,10 +70,10 @@ $this->title = 'Памятники на могилу в Калининграде
                         <img src="../img/main/gorizontal.jpg" alt="Горизонтальные памятники Калининград">
                     </div>
                     <div class="department_content">
-                        <h3><a href="<?= Url::toRoute(['site/gallery', 'url' => 'gorizontal']) ?>">Виды памятников</a></h3>
+                        <h3><a href="<?= Url::toRoute(['gallery/gallery', 'url' => 'gorizontal']) ?>">Виды памятников</a></h3>
                         <p>В данном разделе Вы можете ознакомиться с образцами выполненных нами памятников.
                         </p>
-                        <a href="<?= Url::toRoute(['site/gallery', 'url' => 'gorizontal']) ?>" class="learn_more">Подробнее</a>
+                        <a href="<?= Url::toRoute(['gallery/gallery', 'url' => 'gorizontal']) ?>" class="learn_more">Подробнее</a>
                     </div>
                 </div>
             </div>

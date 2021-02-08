@@ -112,7 +112,7 @@ AppAsset::register($this);
                                 <nav>
                                     <ul id="navigation">
                                         <li><a class="active" href="/">главная</a></li>
-                                        <li><a href="<?= Url::toRoute(['site/vertical', 'url' => 'vertical']) ?>">Наши работы</a></li>
+                                        <li><a href="<?= Url::toRoute(['gallery/vertical', 'url' => 'vertical']) ?>">Наши работы</a></li>
                                         <li><a href="#about">О нас</a></li>
                                         <li><a href="#contact-all">Контакты</a></li>
                                     </ul>
@@ -241,7 +241,7 @@ AppAsset::register($this);
 <!-- JS here -->
 <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="../js/vendor/jquery-1.12.4.min.js"></script>
-<script src="../js/popper.min.js"></script>
+<!--<script src="../js/popper.min.js"></script>-->
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/owl.carousel.min.js"></script>
 <script src="../js/isotope.pkgd.min.js"></script>
@@ -258,9 +258,9 @@ AppAsset::register($this);
 <script src="../js/plugins.js"></script>
 <!--contact js-->
 <!--<script src="js/contact.js"></script>-->
-<script src="../js/jquery.ajaxchimp.min.js"></script>
-<script src="../js/jquery.form.js"></script>
-<script src="../js/jquery.validate.min.js"></script>
+<!--<script src="../js/jquery.ajaxchimp.min.js"></script>-->
+<!--<script src="../js/jquery.form.js"></script>-->
+<!--<script src="../js/jquery.validate.min.js"></script>-->
 <script src="../js/mail-script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
 <script>

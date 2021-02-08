@@ -62,8 +62,8 @@ return [
                 'type-stone' => 'site/type-stone',
                 'contact' => 'site/contact',
                 [
-                    'pattern' => 'site/<url:\S+>',
-                    'route' => '/site/gallery',
+                    'pattern' => 'gallery/<url:\S+>',
+                    'route' => '/gallery/gallery',
                     'defaults' => ['url' => 'error']
                 ],
                 'image' => 'yii2images/images/image-by-item-and-alias',

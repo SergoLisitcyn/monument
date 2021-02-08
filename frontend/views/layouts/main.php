@@ -82,14 +82,15 @@ AppAsset::register($this);
                         <div class="col-xl-6 col-md-6 ">
                             <div class="social_media_links">
                                 <i class="fa fa-map-marker"></i>
-                                <b>Калининград, Некрасова, д.18</b>
+                                <b>Калининград, Некрасова, д.18-24<br>(ориентир магазин Виктория)</b>
                             </div>
                         </div>
                         <div class="col-xl-6 col-md-6">
                             <div class="short_contact_list">
                                 <ul>
-                                    <li><a href="mailto:victor1714@mail.ru"> <i class="fa fa-envelope"></i> victor1714@mail.ru</a></li>
+                                    <li><a href="mailto:promonument@mail.ru"> <i class="fa fa-envelope"></i> promonument@mail.ru</a></li>
                                     <li><a href="tel:+79097938373"> <i class="fa fa-phone"></i> +7 (909) 793-83-73</a></li>
+                                    <li><a href="tel:+74012364658"> <i class="fa fa-phone"></i> +7 (4012) 36-46-58</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -111,7 +112,7 @@ AppAsset::register($this);
                                 <nav>
                                     <ul id="navigation">
                                         <li><a class="active" href="/">главная</a></li>
-                                        <li><a href="<?= Url::toRoute(['site/gallery', 'url' => 'gallery']) ?>">Галерея</a></li>
+                                        <li><a href="<?= Url::toRoute(['site/vertical', 'url' => 'vertical']) ?>">Наши работы</a></li>
                                         <li><a href="#about">О нас</a></li>
                                         <li><a href="#contact-all">Контакты</a></li>
                                     </ul>
@@ -183,7 +184,7 @@ AppAsset::register($this);
                             Калининград, Некрасова, д.18
                             <br>
                             +7 (909) 793-83-73 <br>
-                            victor1714@mail.ru
+                            promonument@mail.ru
                         </p>
                     </div>
                 </div>
@@ -203,6 +204,7 @@ AppAsset::register($this);
         </div>
     </div>
 </footer>
+<?= \frontend\widgets\FBFWidget::widget(); ?>
 <!-- form itself end-->
 <!--<form id="test-form" class="white-popup-block mfp-hide" action="/" method="post">-->
 <!--    <div class="popup_box ">-->

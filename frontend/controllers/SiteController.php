@@ -258,23 +258,14 @@ class SiteController extends Controller
     {
         if($url == 'gallery'){
             $itemId = 1;
-            $title = 'Галерея';
+            $title = 'Наши работы';
         } elseif ($url == 'vertical'){
             $itemId = 2;
-            $title = 'Вертикальные';
+            $title = 'Наши работы';
         } elseif ($url == 'gorizontal'){
             $itemId = 3;
-            $title = 'Горизонтальные';
-        } elseif ($url == 'vertical-figure'){
-            $itemId = 4;
-            $title = 'Вертикальные фигурные';
-        } elseif ($url == 'dvoinoi'){
-            $itemId = 5;
-            $title = 'Двойной';
-        } elseif ($url == 'sale'){
-            $itemId = 6;
-            $title = 'Недорогие памятники';
-        } elseif ($url == 'other'){
+            $title = 'Виды памятников';
+        }  elseif ($url == 'other'){
             $itemId = 7;
             $title = 'Лавки,вазы,оградки';
         } else {

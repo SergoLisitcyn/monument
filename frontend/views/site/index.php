@@ -30,8 +30,8 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-12">
                 <div class="section_title text-center mb-55">
                     <h3>КАТЕГОРИИ</h3>
-                    <p>Если вы хотите заказать изделие, которого нет в каталоге сайта, пожалуйста,<br>
-                         вышлите нам по электронной почте victor1714@mail.ru фото или рисунок<br>
+                    <p>Если вы хотите заказать памятник, которого нет в каталоге нашего сайта, пожалуйста,<br>
+                         вышлите нам по электронной почте promonument@mail.ru фото или рисунок<br>
                           интересующего вас памятника или свяжитесь с нами по телефону.
                         </p>
                 </div>
@@ -116,7 +116,7 @@ $this->title = 'Памятники на могилу в Калининграде
                     <h3>Работаем по всей области</h3>
                     <p>Работаем на всех кладбищах Калининграда и области.
                     </p>
-                    <a href="mailto:victor1714@mail.ru" class="boxed-btn3-white">Напишите нам</a>
+                    <a href="mailto:promonument@mail.ru" class="boxed-btn3-white">Напишите нам</a>
                 </div>
             </div>
         </div>
@@ -279,7 +279,7 @@ $this->title = 'Памятники на могилу в Калининграде
                         </p>
                     </div>
                     <div class="info_button">
-                        <a href="mailto:victor1714@mail.ru" class="boxed-btn3-white">Написать письмо</a>
+                        <a href="mailto:promonument@mail.ru" class="boxed-btn3-white">Написать письмо</a>
                     </div>
                 </div>
             </div>
@@ -297,7 +297,7 @@ $this->title = 'Памятники на могилу в Калининграде
                     <h2>Контактная информация</h2>
                     <p>г. Калининград, ул. Некрасова 18</p>
                     <p>График работы: Пн-Сб с 10:00 до 17:00 </p>
-                    <p><span class="glyphicon glyphicon-envelope"></span>  <a href="mailto:victor1714@mail.ru">victor1714@mail.ru</a></p>
+                    <p><span class="glyphicon glyphicon-envelope"></span>  <a href="mailto:promonument@mail.ru">promonument@mail.ru</a></p>
                     <p><span class="glyphicon glyphicon-earphone"></span>  <a class="tel" href="tel:+79097938373">+7 (909) 793-83-73</a></p>
                 </div>
 

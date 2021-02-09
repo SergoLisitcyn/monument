@@ -57,8 +57,8 @@ AppAsset::register($this);
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/magnific-popup.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/themify-icons.css">
-    <link rel="stylesheet" href="../css/nice-select.css">
+<!--    <link rel="stylesheet" href="../css/themify-icons.css">-->
+<!--    <link rel="stylesheet" href="../css/nice-select.css">-->
 <!--    <link rel="stylesheet" href="../css/flaticon.css">-->
 <!--    <link rel="stylesheet" href="../css/animate.css">-->
 <!--    <link rel="stylesheet" href="../css/slicknav.css">-->

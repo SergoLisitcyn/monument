@@ -229,7 +229,7 @@ AppAsset::register($this);
 <!--<script src="../js/jquery.form.js"></script>-->
 <!--<script src="../js/jquery.validate.min.js"></script>-->
 <script src="../js/mail-script.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js" async></script>
 <script src="../js/main.js"></script>
 <?php $this->endBody() ?>
 </body>

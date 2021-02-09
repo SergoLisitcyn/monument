@@ -62,7 +62,6 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
-    <!-- header-start -->
     <header>
         <div class="header-area ">
             <div class="header-top_area">
@@ -111,9 +110,6 @@ AppAsset::register($this);
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                             <div class="Appointment">
                                 <div class="book_btn d-none d-lg-block">
-<!--                                    <button type="button" class="button-slider" data-toggle="modal" data-target="#myModal">-->
-<!--                                        <a href="#">Свяжитесь с нами</a>-->
-<!--                                    </button>-->
                                     <a class="popup-with-form" href="#test-form">Свяжитесь с нами</a>
                                 </div>
                             </div>
@@ -126,16 +122,12 @@ AppAsset::register($this);
             </div>
         </div>
     </header>
-    <!-- header-end -->
-
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= Alert::widget() ?>
         <?= $content ?>
 </div>
-
-<!-- footer start -->
 <footer class="footer">
     <div class="footer_top">
         <div class="container">
@@ -197,7 +189,6 @@ AppAsset::register($this);
 
 <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="../js/vendor/jquery-1.12.4.min.js"></script>
-<!--<script src="../js/popper.min.js"></script>-->
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/owl.carousel.min.js"></script>
 <script src="../js/isotope.pkgd.min.js"></script>
@@ -212,11 +203,6 @@ AppAsset::register($this);
 <script src="../js/jquery.slicknav.min.js"></script>
 <script src="../js/jquery.magnific-popup.min.js"></script>
 <script src="../js/plugins.js"></script>
-<!--contact js-->
-<!--<script src="js/contact.js"></script>-->
-<!--<script src="../js/jquery.ajaxchimp.min.js"></script>-->
-<!--<script src="../js/jquery.form.js"></script>-->
-<!--<script src="../js/jquery.validate.min.js"></script>-->
 <script src="../js/mail-script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js" async></script>
 <script src="../js/main.js"></script>

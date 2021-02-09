@@ -1,4 +1,3 @@
-/* Magnific Popup CSS */
 .mfp-bg {
   top: 0;
   left: 0;
@@ -293,14 +292,9 @@ img.mfp-img {
 
 .mfp-image-holder .mfp-content {
   max-width: 100%; }
-
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer; }
-
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
-  /**
-       * Remove all paddings around the image on small screen
-       */
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0; }

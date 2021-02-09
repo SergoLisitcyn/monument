@@ -4,7 +4,6 @@
 use \yii\helpers\Url;
 $this->title = 'Памятники на могилу в Калининграде';
 ?>
-<!-- slider_area_start -->
 <div class="slider_area">
     <div class="slider_active owl-carousel" style="display: block">
         <div class="single_slider  d-flex align-items-center slider_bg_2">
@@ -80,8 +79,6 @@ $this->title = 'Памятники на могилу в Калининграде
         </div>
     </div>
 </div>
-<!-- offers_area_end -->
-<!-- service_area_start -->
 <div class="service_area">
     <div class="container p-0">
         <div class="row no-gutters">
@@ -89,7 +86,6 @@ $this->title = 'Памятники на могилу в Калининграде
                 <div class="single_service">
                     <div class="icon">
                         <i class="fa fa-thumbs-up"></i>
-<!--                        <i class="flaticon-electrocardiogram"></i>-->
                     </div>
                     <h3>Надежная компания</h3>
                     <p>На рынке с 1999 года. Даем реальные гарантии: 2 года на продукцию.
@@ -101,7 +97,6 @@ $this->title = 'Памятники на могилу в Калининграде
                 <div class="single_service">
                     <div class="icon">
                         <i class="fa fa-phone"></i>
-<!--                        <i class="flaticon-emergency-call"></i>-->
                     </div>
                     <h3>Бесплатные консультации</h3>
                     <p>Обратитесь за помощью к наш – вместе мы подберем модель.</p>
@@ -122,9 +117,6 @@ $this->title = 'Памятники на могилу в Калининграде
         </div>
     </div>
 </div>
-<!-- service_area_end -->
-
-<!-- welcome_docmed_area_start -->
 <div class="welcome_docmed_area"  id="about">
     <div class="container">
         <div class="row">
@@ -155,9 +147,6 @@ $this->title = 'Памятники на могилу в Калининграде
         </div>
     </div>
 </div>
-<!-- welcome_docmed_area_end -->
-
-<!-- business_expert_area_start  -->
 <div class="business_expert_area">
     <div class="business_tabs_area">
         <div class="container">
@@ -168,14 +157,11 @@ $this->title = 'Памятники на могилу в Калининграде
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
                                aria-selected="true">Разумная стоимость услуг</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
                                aria-selected="false">Натуральный гранит
                             </a>
                         </li>
-
-
                         <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
                                aria-selected="false">Гравировка высокого класса</a>
@@ -252,11 +238,6 @@ $this->title = 'Памятники на могилу в Калининграде
         </div>
     </div>
 </div>
-<!-- business_expert_area_end  -->
-
-
-
-<!-- Emergency_contact start -->
 <div class="Emergency_contact" id="contact-all">
     <div class="conatiner-fluid p-0">
         <div class="row no-gutters">
@@ -287,7 +268,6 @@ $this->title = 'Памятники на могилу в Калининграде
     </div>
 </div>
 <div id="footer-map">
-
     <div class="container">
         <div class="row">
 
@@ -307,4 +287,3 @@ $this->title = 'Памятники на могилу в Калининграде
     </div>
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af41de4d62212f330825dace602eb5ce9d55f3a8a5772b63988e620f6cc5eb0cb&amp;width=100%25&amp;height=490&amp;lang=ru_RU&amp;scroll=false"></script>
 </div>
-<!-- Emergency_contact end -->

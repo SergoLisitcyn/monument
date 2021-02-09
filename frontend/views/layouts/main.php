@@ -20,7 +20,8 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="rphj6uxEZjhQQvgKdiyQ9LwPwVEGhHE7fUjRO8U6paM" />
     <meta name="yandex-verification" content="0793a1a4af5b42cd" />
-    <meta name="description" content="Изготовление памятников и обустройство могил в Калининграде. Установка и доставка. Гарантия от 2x лет. Более 100 моделей памятников на могилу.">
+    <meta name="description" content="Изготовление памятников и обустройство могил в Калининграде. Установка и доставка.
+     Гарантия от 2x лет. Более 100 моделей памятников на могилу.">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132536028-1"></script>
     <script>
@@ -52,7 +53,7 @@ AppAsset::register($this);
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/52051779" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+<!--    <link rel="stylesheet" href="../css/bootstrap.min.css">-->
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/magnific-popup.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
@@ -63,7 +64,6 @@ AppAsset::register($this);
     <link rel="stylesheet" href="../css/slicknav.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css" />
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <?php $this->registerLinkTag(['rel' => 'canonical', 'href' => \yii\helpers\Url::canonical()]); ?>
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
@@ -205,40 +205,7 @@ AppAsset::register($this);
     </div>
 </footer>
 <?= \frontend\widgets\FBFWidget::widget(); ?>
-<!-- form itself end-->
-<!--<form id="test-form" class="white-popup-block mfp-hide" action="/" method="post">-->
-<!--    <div class="popup_box ">-->
-<!--        <div class="popup_inner">-->
-<!--            <h3>Свяжитесь с нами</h3>-->
-<!--            <form>-->
-<!--                <div class="row">-->
-<!--                    <div class="col-xl-6">-->
-<!--                        <input type="text" name="ContactForm[name]"  placeholder="Ваше Имя">-->
-<!--                    </div>-->
-<!--                    <div class="col-xl-6">-->
-<!--                        <input type="text" name="ContactForm[phone]"  placeholder="Ваш телефон">-->
-<!--                    </div>-->
-<!--                    <div class="col-xl-12">-->
-<!--                        <input type="email"  name="ContactForm[email]" placeholder="Ваш Email">-->
-<!--                    </div>-->
-<!--                    <div class="col-xl-12">-->
-<!--                        <textarea id="contactform-body" class="form-control" name="ContactForm[body]" rows="6" aria-required="true" placeholder="Ваше сообщение"></textarea>-->
-<!--                    </div>-->
-<!--                    <div class="col-xl-12">-->
-<!--                        <div class="g-recaptcha" data-sitekey="6LcDBE4aAAAAAKYO7sQ1NUd8G2rEJc9MDTJ_ceh5"></div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="col-xl-12">-->
-<!--                        <button type="submit" class="boxed-btn3">Отправить</button>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </form>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</form>-->
-<!-- form itself end -->
-<!-- footer end  -->
-<!-- JS here -->
+
 <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
 <script src="../js/vendor/jquery-1.12.4.min.js"></script>
 <!--<script src="../js/popper.min.js"></script>-->
@@ -263,11 +230,6 @@ AppAsset::register($this);
 <!--<script src="../js/jquery.validate.min.js"></script>-->
 <script src="../js/mail-script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
-<script>
-    function onSubmit(token) {
-        document.getElementById("test-form").submit();
-    }
-</script>
 <script src="../js/main.js"></script>
 <?php $this->endBody() ?>
 </body>

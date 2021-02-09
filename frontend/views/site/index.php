@@ -204,7 +204,7 @@ $this->title = 'Памятники на могилу в Калининграде
                         </div>
                         <div class="col-xl-6 col-md-6">
                             <div class="business_thumb">
-                                <img src="../img/main/granit.jpg" alt="Памятники на могилу в Калининграде">
+                                <img src="../img/main/granit-min.jpg" alt="Памятники на могилу в Калининграде">
                             </div>
                         </div>
                     </div>
@@ -224,7 +224,7 @@ $this->title = 'Памятники на могилу в Калининграде
                         </div>
                         <div class="col-xl-6 col-md-6">
                             <div class="business_thumb">
-                                <img src="../img/main/granit.jpg" alt="Памятники на могилу Калининград">
+                                <img src="../img/main/granit-min.jpg" alt="Памятники на могилу Калининград">
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,7 @@ $this->title = 'Памятники на могилу в Калининграде
                         </div>
                         <div class="col-xl-6 col-md-6">
                             <div class="business_thumb">
-                                <img src="../img/main/granit.jpg" alt="Памятники на могилу в Калининграде">
+                                <img src="../img/main/granit-min.jpg" alt="Памятники на могилу в Калининграде">
                             </div>
                         </div>
                     </div>

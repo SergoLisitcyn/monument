@@ -53,16 +53,6 @@ AppAsset::register($this);
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/52051779" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../css/magnific-popup.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-<!--    <link rel="stylesheet" href="../css/themify-icons.css">-->
-<!--    <link rel="stylesheet" href="../css/nice-select.css">-->
-<!--    <link rel="stylesheet" href="../css/flaticon.css">-->
-<!--    <link rel="stylesheet" href="../css/animate.css">-->
-<!--    <link rel="stylesheet" href="../css/slicknav.css">-->
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css" />
     <?php $this->registerLinkTag(['rel' => 'canonical', 'href' => \yii\helpers\Url::canonical()]); ?>
     <?php $this->registerCsrfMetaTags() ?>
@@ -103,7 +93,7 @@ AppAsset::register($this);
                         <div class="col-xl-3 col-lg-2">
                             <div class="logo">
                                 <a href="/">
-                                    <img src="../img/logonew.png" alt="Promonument.ru" style="height: 55px;">
+                                    <img src="../img/logonew-min.png" alt="Promonument.ru" style="height: 55px;">
                                 </a>
                             </div>
                         </div>
@@ -155,7 +145,7 @@ AppAsset::register($this);
                     <div class="footer_widget">
                         <div class="footer_logo">
                             <a href="#">
-                                <img src="../img/logonew.png" alt="Памятники в Калининграде" height="100">
+                                <img src="../img/logonew-min.png" alt="Памятники в Калининграде" height="100">
                             </a>
                         </div>
                         <p>

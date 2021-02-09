@@ -59,9 +59,9 @@ AppAsset::register($this);
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/themify-icons.css">
     <link rel="stylesheet" href="../css/nice-select.css">
-    <link rel="stylesheet" href="../css/flaticon.css">
-    <link rel="stylesheet" href="../css/animate.css">
-    <link rel="stylesheet" href="../css/slicknav.css">
+<!--    <link rel="stylesheet" href="../css/flaticon.css">-->
+<!--    <link rel="stylesheet" href="../css/animate.css">-->
+<!--    <link rel="stylesheet" href="../css/slicknav.css">-->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css" />
     <?php $this->registerLinkTag(['rel' => 'canonical', 'href' => \yii\helpers\Url::canonical()]); ?>
@@ -112,7 +112,7 @@ AppAsset::register($this);
                                 <nav>
                                     <ul id="navigation">
                                         <li><a class="active" href="/">главная</a></li>
-                                        <li><a href="<?= Url::toRoute(['gallery/vertical', 'url' => 'vertical']) ?>">Наши работы</a></li>
+                                        <li><a href="<?= Url::toRoute(['gallery/gallery', 'url' => 'vertical']) ?>">Наши работы</a></li>
                                         <li><a href="#about">О нас</a></li>
                                         <li><a href="#contact-all">Контакты</a></li>
                                     </ul>

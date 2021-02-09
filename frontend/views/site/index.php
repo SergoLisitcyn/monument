@@ -41,7 +41,7 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="single_department">
                     <div class="department_thumb">
-                        <img src="../img/main/onas2.jpg" alt="Памятники на могилу Калининград" style="height: 350px;">
+                        <img src="../img/index_page/onas2.jpg" alt="Памятники на могилу Калининград" style="height: 350px;">
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['gallery/gallery', 'url' => 'vertical']) ?>">Наши работы</a></h3>
@@ -54,7 +54,7 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="single_department">
                     <div class="department_thumb">
-                        <img src="../img/main/ograd.jpg" alt="Оградки,Лавки,Вазы Калининград">
+                        <img src="../img/index_page/ograd.jpg" alt="Оградки,Лавки,Вазы Калининград">
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['gallery/gallery', 'url' => 'other']) ?>">Лавки,вазы,оградки</a></h3>
@@ -67,7 +67,7 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-4 col-md-6 col-lg-4">
                 <div class="single_department">
                     <div class="department_thumb">
-                        <img src="../img/main/gorizontal.jpg" alt="Горизонтальные памятники Калининград">
+                        <img src="../img/index_page/gorizontal.jpg" alt="Горизонтальные памятники Калининград">
                     </div>
                     <div class="department_content">
                         <h3><a href="<?= Url::toRoute(['gallery/gallery', 'url' => 'gorizontal']) ?>">Виды памятников</a></h3>
@@ -131,11 +131,11 @@ $this->title = 'Памятники на могилу в Калининграде
             <div class="col-xl-6 col-lg-6">
                 <div class="welcome_thumb">
                     <div class="thumb_1">
-                        <img src="../img/main/onas2.jpg" alt="Памятники на могилу в Калининграде">
+                        <img src="../img/index_page/onas2.jpg" alt="Памятники на могилу в Калининграде">
 
                     </div>
                     <div class="thumb_2">
-                        <img src="../img/main/onas1.jpg" alt="Памятники на могилу в Калининграде">
+                        <img src="../img/index_page/onas1.jpg" alt="Памятники на могилу в Калининграде">
                     </div>
                 </div>
             </div>

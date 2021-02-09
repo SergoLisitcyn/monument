@@ -197,7 +197,7 @@ AppAsset::register($this);
             <div class="row">
                 <div class="col-xl-12">
                     <p class="copy_right text-center">
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены.
+                        Copyright &copy;2021 Все права защищены.
                     </p>
                 </div>
             </div>

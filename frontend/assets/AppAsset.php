@@ -14,8 +14,8 @@ class AppAsset extends AssetBundle
     public $css = [
         'css/style.css',
         'css/bootstrap.min.css',
-        'css/owl.carousel.min.css',
-        'css/font-awesome.min.css',
+//        'css/owl.carousel.min.css',
+//        'css/font-awesome.min.css',
         'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css',
     ];
     public $js = [

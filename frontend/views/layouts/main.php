@@ -22,7 +22,6 @@ AppAsset::register($this);
     <meta name="yandex-verification" content="0793a1a4af5b42cd" />
     <meta name="description" content="Изготовление памятников и обустройство могил в Калининграде. Установка и доставка.
      Гарантия от 2x лет. Более 100 моделей памятников на могилу.">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132536028-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -37,8 +36,6 @@ AppAsset::register($this);
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-WPW2Z94');</script>
-    <!-- End Google Tag Manager -->
-    <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
@@ -52,7 +49,6 @@ AppAsset::register($this);
         });
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/52051779" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
     <?php $this->registerLinkTag(['rel' => 'canonical', 'href' => \yii\helpers\Url::canonical()]); ?>
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
@@ -192,8 +188,8 @@ AppAsset::register($this);
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/owl.carousel.min.js"></script>
 <script src="../js/isotope.pkgd.min.js"></script>
-<script src="../js/ajax-form.js"></script>
-<script src="../js/waypoints.min.js"></script>
+<!--<script src="../js/ajax-form.js"></script>-->
+<!--<script src="../js/waypoints.min.js"></script>-->
 <script src="../js/jquery.counterup.min.js"></script>
 <script src="../js/imagesloaded.pkgd.min.js"></script>
 <script src="../js/scrollIt.js"></script>
@@ -202,8 +198,8 @@ AppAsset::register($this);
 <script src="../js/nice-select.min.js"></script>
 <script src="../js/jquery.slicknav.min.js"></script>
 <script src="../js/jquery.magnific-popup.min.js"></script>
-<script src="../js/plugins.js"></script>
-<script src="../js/mail-script.js"></script>
+<!--<script src="../js/plugins.js"></script>-->
+<!--<script src="../js/mail-script.js"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js" async></script>
 <script src="../js/main.js"></script>
 <?php $this->endBody() ?>

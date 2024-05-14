@@ -74,7 +74,6 @@ AppAsset::register($this);
                                 <ul>
                                     <li><a href="mailto:promonument@mail.ru"> <i class="fa fa-envelope"></i> promonument@mail.ru</a></li>
                                     <li><a href="tel:+79097938373"> <i class="fa fa-phone"></i> +7 (909) 793-83-73</a></li>
-                                    <li><a href="tel:+74012364658"> <i class="fa fa-phone"></i> +7 (4012) 36-46-58</a></li>
                                 </ul>
                             </div>
                         </div>

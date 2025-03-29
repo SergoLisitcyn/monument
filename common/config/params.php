@@ -2,5 +2,5 @@
 return [
     'adminEmail' => 'promonument@mail.ru',
     'supportEmail' => 'promonument@mail.ru',
-    'user.passwordResetTokenExpire' => 3600,
+    'user.passwordResetTokenExpire' => 3601,
 ];

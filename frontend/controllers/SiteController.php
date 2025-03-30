@@ -79,7 +79,15 @@ class SiteController extends Controller
     {
         $feedback = new Feedback();
         if ($feedback->load(Yii::$app->request->post())) {
-            if ($feedback->save() && $feedback->sendEmail()) {
+            $post = Yii::$app->request->post();
+            if(empty($post['g-recaptcha-response'])){
+                Yii::$app->session->setFlash(
+                    'errors',
+                    'Ошибка! Сообщение не отправлено. Подтвердите, что Вы не являетесь роботом!'
+                );
+                return $this->refresh();
+            }
+            if ($feedback->save()) {
                 $message = 'Сообщение отправлено! Мы скоро с вами свяжемся!';
                 Yii::$app->session->setFlash(
                     'successReviews',
@@ -94,41 +102,6 @@ class SiteController extends Controller
             return $this->refresh();
         }
         return $this->render('index');
-    }
-
-    /**
-     * Logs in a user.
-     *
-     * @return mixed
-     */
-    public function actionLogin()
-    {
-        if (!Yii::$app->user->isGuest) {
-            return $this->goHome();
-        }
-
-        $model = new LoginForm();
-        if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
-        }
-
-        $model->password = '';
-
-        return $this->render('login', [
-            'model' => $model,
-        ]);
-    }
-
-    /**
-     * Logs out the current user.
-     *
-     * @return mixed
-     */
-    public function actionLogout()
-    {
-        Yii::$app->user->logout();
-
-        return $this->goHome();
     }
 
     /**
@@ -152,16 +125,6 @@ class SiteController extends Controller
         return $this->render('contact', [
             'model' => $model,
         ]);
-    }
-
-    /**
-     * Displays about page.
-     *
-     * @return mixed
-     */
-    public function actionAbout()
-    {
-        return $this->render('about');
     }
 
     public function actionNashiRaboty()
@@ -196,23 +159,6 @@ class SiteController extends Controller
         return $this->render('company');
     }
 
-    /**
-     * Signs user up.
-     *
-     * @return mixed
-     */
-    public function actionSignup()
-    {
-        $model = new SignupForm();
-        if ($model->load(Yii::$app->request->post()) && $model->signup()) {
-            Yii::$app->session->setFlash('success', 'Thank you for registration. Please check your inbox for verification email.');
-            return $this->goHome();
-        }
-
-        return $this->render('signup', [
-            'model' => $model,
-        ]);
-    }
 
     /**
      * Requests password reset.

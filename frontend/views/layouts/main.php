@@ -20,6 +20,7 @@ AppAsset::register($this);
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132536028-1"></script>
     <script>
@@ -166,6 +167,8 @@ AppAsset::register($this);
                         </div>
                         <textarea class="main-form__elem" rows="6" name="Feedback[body]"  placeholder="Ваш вопрос" autocomplete="off"></textarea>
                     </div>
+                    <div class="g-recaptcha" data-sitekey="6LfwUAQrAAAAAKhxFoGh4Nyi4kjiyml0TXTl9pip" style="margin-top: 12px"></div>
+
                     <button type="submit" class="main-form__button button">Отправить заявку</button>
                 </form>
             </div>

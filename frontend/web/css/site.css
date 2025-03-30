@@ -9147,6 +9147,10 @@ button {
     .banner-section__text {
         font-size: 26px
     }
+
+    .gallery-item {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 919px) {

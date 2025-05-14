@@ -39,13 +39,13 @@ AppAsset::register($this);
             k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-        ym(101868213, "init", {
+        ym(52051779, "init", {
             clickmap:true,
             trackLinks:true,
             accurateTrackBounce:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/101868213" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/52051779" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 </head>
 <body class="d-flex flex-column h-100">

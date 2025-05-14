@@ -1683,11 +1683,8 @@ button {
 }
 
 .not-found {
-    background-image: url(../img/main-pic-bot-found.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
-    padding: 80px 0 70px
+    padding: 80px 0 70px;
+    background: #dbecfe;
 }
 
 .not-found__row {
@@ -9103,7 +9100,6 @@ button {
     }
 
     .not-found {
-        padding: 46px 0 270px;
         background-position: 77% 100%
     }
 

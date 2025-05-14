@@ -168,7 +168,7 @@ AppAsset::register($this);
                         <textarea class="main-form__elem" rows="6" name="Feedback[body]"  placeholder="Ваш вопрос" autocomplete="off"></textarea>
                     </div>
                     <div class="g-recaptcha" data-sitekey="6LfwUAQrAAAAAKhxFoGh4Nyi4kjiyml0TXTl9pip" style="margin-top: 12px"></div>
-
+                    <input type="text" name="email_confirm" style="display: none;">
                     <button type="submit" class="main-form__button button">Отправить заявку</button>
                 </form>
             </div>

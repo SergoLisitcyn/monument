@@ -80,6 +80,12 @@ class SiteController extends Controller
         $feedback = new Feedback();
         if ($feedback->load(Yii::$app->request->post())) {
             $post = Yii::$app->request->post();
+
+            if (!empty($post['email_confirm'])) {
+                Yii::$app->session->setFlash('errors', 'Обнаружен спам-бот.');
+                return $this->refresh();
+            }
+
             if(empty($post['g-recaptcha-response'])){
                 Yii::$app->session->setFlash(
                     'errors',

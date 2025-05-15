@@ -2,9 +2,23 @@
 $this->title = 'Наши работы | Изготовление и установка памятников в Калининграде и области';
 $this->registerMetaTag(['name' => 'description','content' => 'Наши работы ✔ Изготовление памятников на заказ ✔ Установка на всех кладбищах Калининграда и области ✔ Гарантия качества и индивидуальный подход.']);
 ?>
-
 <section class="works-heading heading">
     <div class="container">
+        <div class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <ul class="breadcrumbs__items">
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/" class="breadcrumbs__link" itemprop="item">
+                        <span itemprop="name">Главная</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Наши работы</span>
+                    <meta itemprop="item" content="https://www.promonument.ru/nashi-raboty" />
+                    <meta itemprop="position" content="2" />
+                </li>
+            </ul>
+        </div>
         <div class="heading__row">
             <h1 class="heading__title">Наши работы</h1>
         </div>

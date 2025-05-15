@@ -14,6 +14,21 @@ $this->registerMetaTag(['name' => 'description','content' => 'Контактны
 ?>
 <section class="contacts">
     <div class="container">
+        <div class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <ul class="breadcrumbs__items">
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/" class="breadcrumbs__link" itemprop="item">
+                        <span itemprop="name">Главная</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Контакты</span>
+                    <meta itemprop="item" content="https://www.promonument.ru/contacts" />
+                    <meta itemprop="position" content="2" />
+                </li>
+            </ul>
+        </div>
         <div class="contacts__row section-row">
             <h1 class="main-info__title">Контакты</h1>
             <p class="contacts__postscript uni-postscript uni-postscript-margin uni-postscript--accent">

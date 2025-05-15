@@ -6,8 +6,22 @@ $this->registerMetaTag(['name' => 'description','content' => 'Изготовле
 
 <section class="company">
     <div class="container">
+        <div class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <ul class="breadcrumbs__items">
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/" class="breadcrumbs__link" itemprop="item">
+                        <span itemprop="name">Главная</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">О компании</span>
+                    <meta itemprop="item" content="https://www.promonument.ru/company" />
+                    <meta itemprop="position" content="2" />
+                </li>
+            </ul>
+        </div>
         <div class="company__row section-row section-row--no-pb">
-
             <h1 class="main-info__title">О компании</h1>
             <p class="company__descr section-descr">Мы создаем памятники, которые сохраняют память о близких на долгие годы.
                 У нас вы можете заказать не только стандартные решения, но и уникальные надгробия по индивидуальным эскизам.

@@ -2911,60 +2911,6 @@ button {
     object-fit: cover
 }
 
-.industrial-slider-info {
-    border-top: 2px solid #000a1a;
-    margin-top: 15px
-}
-
-.industrial-slider-info__row {
-    margin-top: 15px
-}
-
-.industrial-slider-info__price {
-    font-size: 16px;
-    font-weight: 600;
-    color: #0a847e
-}
-
-.industrial-slider-info__price+.industrial-slider-info__price {
-    margin-top: 5px
-}
-
-.industrial-slider-accent-item {
-    background-color: #0a847e
-}
-
-.industrial-slider-accent-item__row {
-    padding: 25px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
-    min-height: 100%
-}
-
-.industrial-slider-accent-item__descr,.industrial-slider-accent-item__text {
-    font-size: 20px;
-    font-weight: 500;
-    color: #fff
-}
-
-.industrial-slider-accent-item__descr {
-    padding-bottom: 27px;
-    border-bottom: 2px solid #fff
-}
-
-.industrial-slider-accent-item__text {
-    margin-top: 27px;
-    font-weight: 600
-}
-
 .minor-repair-slider .slick-slide>div:not(:last-child) {
     margin-bottom: 30px
 }
@@ -3015,21 +2961,6 @@ button {
 
 .minor-repair-slider__postscript {
     margin-top: 30px
-}
-
-.discount-section {
-    background-image: url(../img/discount.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 250px;
-    padding: 57px 45px
-}
-
-.discount-section__text {
-    max-width: 490px;
-    font-size: 36px;
-    font-weight: 500
 }
 
 .main-modal {
@@ -9061,18 +8992,6 @@ button {
 
     .important-section-columns__text {
         font-size: 18px
-    }
-
-    .discount-section {
-        background-image: url(../img/discount-mobile.jpg);
-        margin-right: -20px;
-        margin-left: -20px;
-        min-height: 500px;
-        padding: 60px 20px
-    }
-
-    .discount-section__text {
-        font-size: 30px
     }
 
     .industrial__info-box {

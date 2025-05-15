@@ -165,6 +165,11 @@ class SiteController extends Controller
         return $this->render('company');
     }
 
+    public function actionUslugi()
+    {
+        return $this->render('uslugi');
+    }
+
 
     /**
      * Requests password reset.

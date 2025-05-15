@@ -52,6 +52,7 @@ return [
                 'company' => '/site/company',
                 'ogradki-stoliki-vazy' => '/site/ogradki',
                 'pamyatniki' => '/site/pamyatniki',
+                'uslugi' => '/site/uslugi',
                 'sitemap.xml' => '/sitemap/index',
             ],
         ],

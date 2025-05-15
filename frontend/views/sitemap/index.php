@@ -13,6 +13,12 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
+        <loc><?= $host ?>/uslugi</loc>
+        <lastmod><?= date( DATE_W3C ) ?></lastmod>
+        <priority>0.80</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
         <loc><?= $host ?>/ogradki-stoliki-vazy</loc>
         <lastmod><?= date( DATE_W3C ) ?></lastmod>
         <priority>0.80</priority>

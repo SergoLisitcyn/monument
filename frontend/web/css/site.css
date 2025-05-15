@@ -103,7 +103,7 @@
 
 @font-face {
     font-family: swiper-icons;
-    src: url('data:application/font-woff;charset=utf-8;base64, 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');
+    src: url('data:application/font-woff;charset=utf-8;base64,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');
     font-weight: 400;
     font-style: normal
 }
@@ -1544,7 +1544,7 @@ button {
 }
 
 .header-info__list {
-    margin-right: 55px
+    margin-right: 20px
 }
 
 .header-info-one .connect-box {
@@ -1585,7 +1585,7 @@ button {
 }
 
 .header-list__item:not(:last-child) {
-    margin-right: 32px
+    margin-right: 20px
 }
 
 .connect-box {
@@ -1603,7 +1603,7 @@ button {
     font-weight: 600;
     color: #fff;
     line-height: 24px;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .connect-box__time {
@@ -1648,7 +1648,6 @@ button {
 }
 
 .main-info {
-    /*background-image: url(../img/main-pic.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 100%;
@@ -2683,9 +2682,8 @@ button {
 }
 
 .footer__logo img {
-    /*min-width: 195px*/
     height: 80px;
-    width: 80px;
+    width: 80px
 }
 
 .footer__connect {
@@ -2722,11 +2720,9 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 12%;
+    gap: 12%
 }
-.footer-info__box {
-    /*margin-left: 20px;*/
-}
+
 .footer-info-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2741,12 +2737,12 @@ button {
     flex-wrap: wrap;
     width: 100%;
     gap: 15px;
-    padding-left: 0;
+    padding-left: 0
 }
 
 .footer-info-list__item {
     width: 100%;
-    max-width: 250px;
+    max-width: 250px
 }
 
 .footer-info-list__link {
@@ -2776,7 +2772,7 @@ button {
 
 .heading__row {
     padding: 20px 0 20px;
-    max-width: 64%;
+    max-width: 64%
 }
 
 .heading__title {
@@ -2795,10 +2791,6 @@ button {
 
 .electrical-heading,.partial-repair-heading,.vacancy-heading {
     background-image: url(../img/heading/heading-4.jpg)
-}
-
-.industrial-heading,.works-heading {
-    /*background: #a7daef;*/
 }
 
 .contacts-heading {
@@ -8451,9 +8443,10 @@ button {
         min-height: auto
     }
 }
+
 @media (max-width: 1100px) {
-    .header__logo span{
-        display: none;
+    .header__logo span {
+        display:none
     }
 }
 
@@ -8461,16 +8454,17 @@ button {
     .header-info {
         display:none
     }
-    .main-info__title+.main-info__descr{
-        margin-top: 10px;
+
+    .main-info__title+.main-info__descr {
+        margin-top: 10px
     }
 
     .main-info__descr {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .uni-slider__item {
-        max-width: 100%;
+        max-width: 100%
     }
 
     .header-info__columns {
@@ -8679,7 +8673,6 @@ button {
         position: fixed;
         width: 100%;
         min-height: 100vh;
-        /*top: 104px;*/
         left: 0;
         background-color: #011e54;
         overflow: auto;
@@ -8728,19 +8721,20 @@ button {
 
     .header__row {
         padding: 10px 0;
-        justify-content: unset;
+        justify-content: unset
     }
 
-    .header__logo img{
-        height: 40px !important;
+    .header__logo img {
+        height: 40px!important
     }
 
     .header__logo span {
-        display: none;
+        display: none
     }
-    .header__row .header-phone{
-        display: block !important;
-        margin-left: 20px;
+
+    .header__row .header-phone {
+        display: block!important;
+        margin-left: 20px
     }
 
     .logo {
@@ -9019,6 +9013,14 @@ button {
         margin-top: 15px
     }
 
+    .uslugi__descr{
+        font-size: 18px !important;
+    }
+
+    .uslugi__subtitle {
+        font-size: 18px !important;
+    }
+
     .footer-connect__connect-box {
         margin-top: 16px
     }
@@ -9145,7 +9147,7 @@ button {
     }
 
     .gallery-item {
-        width: 100% !important;
+        width: 100%!important
     }
 }
 
@@ -9257,29 +9259,29 @@ button {
     }
 }
 
-.alert-main-page{
+.alert-main-page {
     background: #00a65a;
     color: #fff;
     text-align: center;
     font-weight: 700;
-    padding: 10px;
+    padding: 10px
 }
 
-.alert-main-page-danger{
+.alert-main-page-danger {
     background: red;
     color: #fff;
     text-align: center;
     font-weight: 700;
-    padding: 10px;
+    padding: 10px
 }
 
-.close-main-page{
+.close-main-page {
     font-size: 16px;
-    color: #fff;
+    color: #fff
 }
 
 .breadcrumbs {
-    padding: 30px 0;
+    padding: 10px 0 0 0
 }
 
 .breadcrumbs__items {
@@ -9289,11 +9291,11 @@ button {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    align-items: flex-start;
+    align-items: flex-start
 }
 
 .breadcrumbs__item:first-child {
-    padding-left: 0;
+    padding-left: 0
 }
 
 .breadcrumbs__item {
@@ -9302,13 +9304,13 @@ button {
     padding: 0 10px;
     font-size: 14px;
     font-weight: 400;
-    color: #0a847e;
+    color: #011e54
 }
 
 .breadcrumbs__link {
     font-size: 14px;
     font-weight: 400;
-    color: #0a847e;
+    color: #000a1a
 }
 
 .breadcrumbs__item:not(:last-child)::after {
@@ -9321,149 +9323,171 @@ button {
     padding: 0;
     width: 7px;
     height: 7px;
-    border-top: 1px solid #0a847e;
-    border-right: 1px solid #0a847e;
+    border-top: 1px solid #000a1a;
+    border-right: 1px solid #000a1a;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+    transform: rotate(45deg)
 }
 
-.partial-repair__row p{
+.partial-repair__row p {
     font-size: 20px;
     color: #000;
-    padding-bottom: 15px;
+    padding-bottom: 15px
 }
 
 .partial-repair__row h2 {
     font-size: 36px;
     font-weight: 500;
     color: #000a1a;
-    padding-bottom: 15px;
+    padding-bottom: 15px
 }
 
-.finishing-specific p{
+.finishing-specific p {
     font-size: 16px;
     font-weight: 500;
     color: #000a1a;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
-.class-row h2{
+.class-row h2 {
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 15px
 }
 
-.class-row ul{
-    padding-left: 20px;
+.class-row ul {
+    padding-left: 20px
 }
 
-.class-row li{
+.class-row li {
     list-style-type: disc;
     padding-bottom: 15px;
-    font-size: 20px;
+    font-size: 20px
 }
 
-.class-row-works p{
+.class-row-works p {
     font-size: 20px;
     color: #000;
-    padding-bottom: 15px;
+    padding-bottom: 15px
 }
 
-.class-row-works h2{
+.class-row-works h2 {
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 15px
 }
 
-.class-row-works ul{
-    padding-left: 20px;
+.class-row-works ul {
+    padding-left: 20px
 }
 
-.class-row-works li{
+.class-row-works li {
     list-style-type: disc;
     padding-bottom: 15px;
-    font-size: 20px;
+    font-size: 20px
 }
 
-.works__row{
-    padding: 10px 0;
+.works__row {
+    padding: 10px 0
 }
 
 .works__row h2 {
     font-size: 36px;
     font-weight: 500;
     color: #000a1a;
-    padding-bottom: 15px;
+    padding-bottom: 15px
 }
 
-.partial-repair-slider h2{
+.partial-repair-slider h2 {
     font-size: 36px;
     font-weight: 500;
     color: #000a1a;
-    padding-bottom: 15px;
+    padding-bottom: 15px
 }
 
-.partial-repair-slider h3{
+.partial-repair-slider h3 {
     font-size: 32px;
     font-weight: 500;
     color: #000a1a;
-    padding-bottom: 15px;
+    padding-bottom: 15px
 }
 
-.header .connect-box__icon{
-    margin-right: 5px;
+.header .connect-box__icon {
+    margin-right: 5px
 }
 
-.services__descr a{
+.services__descr a {
     display: inline;
     color: #011e54;
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 .header__logo {
     display: flex;
-    align-items: center; /* Выравнивание по центру */
-    gap: 10px; /* Отступ между логотипом и текстом */
-    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    align-items: center;
+    gap: 10px;
+    text-decoration: none
 }
 
 .header__logo img {
     display: block;
-    height: auto;
+    height: auto
 }
 
 .header__logo span {
     font-size: 13px;
     color: #fff;
     white-space: nowrap;
-    font-weight: 700;
+    font-weight: 700
 }
 
-.header__row .header-phone{
-    display: none;
+.header__row .header-phone {
+    display: none
 }
 
 #gallery {
     display: flex;
-    /*gap: 10px 40px;*/
     flex-wrap: wrap;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
     margin: 30px -15px 20px;
-    clear: both;
+    clear: both
 }
+
 .gallery-item {
     width: calc(100% / 4 - 30px);
     overflow: hidden;
     cursor: pointer;
-    margin: 0 15px 30px;
+    margin: 0 15px 30px
 }
+
 .gallery-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.3s;
+    transition: transform 0.3s
 }
-.gallery-item img:hover {
-    /*transform: scale(1.1);*/
+
+.uslugi__subtitle{
+    font-size: 26px !important;
+}
+
+.uslugi-col{
+    width: 100%;
+}
+
+.uslugi-list{
+    margin-top: 0;
+}
+
+.uslugi-columns+.section-subtitle {
+    margin-top: 42px;
+}
+
+.uslugi__descr {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #000a1a;
 }

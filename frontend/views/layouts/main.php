@@ -98,6 +98,9 @@ AppAsset::register($this);
                                     <a href="/nashi-raboty" class="header-list__link">Наши работы</a>
                                 </li>
                                 <li class="header-list__item">
+                                    <a href="/uslugi" class="header-list__link">Услуги</a>
+                                </li>
+                                <li class="header-list__item">
                                     <a href="/company" class="header-list__link">О компании</a>
                                 </li>
                                 <li class="header-list__item">
@@ -242,6 +245,9 @@ AppAsset::register($this);
                         <div class="footer-info__about">
                             <div class="footer-info__title">Главная</div>
                             <ul class="footer-info__list footer-info-list">
+                                <li class="footer-info-list__item">
+                                    <a href="/uslugi" class="footer-info-list__link">Услуги</a>
+                                </li>
                                 <li class="footer-info-list__item">
                                     <a href="/company" class="footer-info-list__link">О компании</a>
                                 </li>

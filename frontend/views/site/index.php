@@ -5,11 +5,11 @@
 $this->title = 'Надгробные памятники | Изготовление и установка в Калининграде';
 $this->registerMetaTag(['name' => 'description','content' => 'Изготовление и установка надгробных памятников в Калининграде. Благоустройство захоронений: оградки, столики, скамейки. Работаем на всех кладбищах города и области.']);
 ?>
-<section class="main-info">
+<section class="main-info index_main_info">
     <div class="container">
         <div class="main-info__row">
-            <h1 class="main-info__title">Готовые и индивидуальные памятники для захоронений в Калининграде</h1>
-            <h2 class="main-info__descr">
+            <h1 class="main-info__title index_title">Готовые и индивидуальные памятники для захоронений в Калининграде</h1>
+            <h2 class="main-info__descr index_descr">
                 Наши опытные мастера предлагают полный спектр услуг по изготовлению, установке и благоустройству захоронений
                 по всей Калининградской области. Свяжитесь с нами, и мы поможем подобрать подходящую модель, учитывая все ваши пожелания.
             </h2>
@@ -21,7 +21,7 @@ $this->registerMetaTag(['name' => 'description','content' => 'Изготовле
     <div class="container">
         <div class="services__row section-row">
             <h2 class="services__title section-title">Каталог</h2>
-            <p class="services__descr section-descr">
+            <p class="services__descr section-descr index_services_descr">
                 Если в нашем каталоге нет нужного вам памятника, отправьте нам фото или эскиз на
                 <a href="mailto:promonument@mail.ru">promonument@mail.ru</a> , и мы изготовим его по вашему заказу.
                 Также вы можете связаться с нами по телефону <a href="tel:+7 (909) 793-83-73">+7 (909) 793-83-73</a> для консультации.</p>

@@ -29,7 +29,7 @@ $this->registerMetaTag(['name' => 'description','content' => 'Изготовле
                 <div class="uni-slider__item">
                     <div class="uni-slider__row">
                         <div class="uni-slider__image">
-                            <img fetchpriority="high" src="/img/nashi-raboty.png" style="height: 247px" alt="Примеры памятников на могилу в Калининграде – наши работы">
+                            <img src="/img/nashi-raboty.png" style="height: 247px" alt="Примеры памятников на могилу в Калининграде – наши работы">
                         </div>
                         <div class="uni-slider__column">
                             <div class="uni-slider__info">
